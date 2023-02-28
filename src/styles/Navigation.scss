@@ -1,0 +1,21 @@
+nav {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    text-align: center;
+    padding: 30px 0 10px;
+    a {
+        color: #fff;
+        font-weight: bold;
+        font-family: 'Jost', sans-serif;
+        font-size: 30px;
+        @include default {
+            font-size: 45px;
+        }
+        h2 {
+            margin: 0;
+        }
+    }
+}
